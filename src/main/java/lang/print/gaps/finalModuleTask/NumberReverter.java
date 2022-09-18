@@ -4,7 +4,7 @@ public class NumberReverter {
     public void revert(int number) {
         System.out.println(reverseNumber(number));
     }
-    public static int reverseNumber(int reverse){
+    public int reverseNumber(int reverse){
         int k = reverse%10;
         int g = (int) String.valueOf(reverse).chars().count();
         if (reverse/10 < 1){
